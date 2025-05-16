@@ -1,6 +1,7 @@
 rootProject.name = "study"
 
 include("apps:spring-security-ex1")
+include("apps:spring-security-ex2")
 
 pluginManagement {
     val springBootVersion: String by settings
@@ -15,3 +16,5 @@ pluginManagement {
         }
     }
 }
+
+include("apps:spring-security-ex2")
